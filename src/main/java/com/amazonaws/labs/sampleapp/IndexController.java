@@ -51,8 +51,6 @@ public class IndexController {
     @Autowired
     private AmazonAutoScaling autoScaling;
 
-    this will raise an exception
-
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String displayIndex(Model model) {
         LOGGER.info("Jesus Application name set to: " + applicationName);
